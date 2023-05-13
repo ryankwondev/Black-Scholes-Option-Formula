@@ -17,8 +17,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # ========================================
 
 st.title('Black-Scholes Option Pricing Model')
-st.write('This is a simple example of using Black-Scholes Option Pricing Model')
-st.write('For MO-BSRA Forum, by @ryankwondev')
+
 
 # Black-Scholes Option Formula
 def europian_option(S, K, T, r, sigma, option_type):
