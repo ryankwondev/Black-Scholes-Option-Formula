@@ -24,6 +24,12 @@ K = 242200
 r = 0.0388
 sigma = 0.04
 
+# enter parameters
+st.sidebar.header('Option Parameters')
+K = st.sidebar.number_input('Strike Price', value=K)
+r = st.sidebar.number_input('Risk Free Rate', value=r)
+sigma = st.sidebar.number_input('Volatility', value=sigma)
+
 # Variables
 T = np.linspace(1e-10, 8, 100)
 S = np.linspace(179000, 242200, 100)
